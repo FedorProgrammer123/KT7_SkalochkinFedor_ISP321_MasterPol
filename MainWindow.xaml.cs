@@ -23,6 +23,8 @@ namespace KT7_SkalochkinFedor_ISP321_MasterPol
         public MainWindow()
         {
             InitializeComponent();
+            Classes.Manager.MainFrame = MainFrame;
+            MainFrame.Navigate(new Pages.ProgramModuleForPartners());
         }
     }
 }

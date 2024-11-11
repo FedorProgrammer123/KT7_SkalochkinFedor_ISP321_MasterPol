@@ -4,6 +4,17 @@
              xmlns:local="clr-namespace:KT7_SkalochkinFedor_ISP321_MasterPol"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="Segoe UI"></Setter>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="Segoe UI"></Setter>
+        </Style>
+        <Style TargetType="PasswordBox">
+            <Setter Property="FontFamily" Value="Segoe UI"></Setter>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Segoe UI"></Setter>
+        </Style>
     </Application.Resources>
 </Application>
