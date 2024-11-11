@@ -23,6 +23,7 @@ namespace KT7_SkalochkinFedor_ISP321_MasterPol.Pages
         public ProgramModuleForPartners()
         {
             InitializeComponent();
+            
         }
     }
 }

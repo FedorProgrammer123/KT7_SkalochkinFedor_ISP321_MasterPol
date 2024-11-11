@@ -15,6 +15,6 @@
             <TextBlock Text="Мастер пол" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"></TextBlock>
             <Image Source="Resources/Мастер пол.png" HorizontalAlignment="Left"></Image>
         </Grid>
-        <Frame x:Name="MainFrame" Grid.Row="1"></Frame>
+        <Frame x:Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden"></Frame>
     </Grid>
 </Window>

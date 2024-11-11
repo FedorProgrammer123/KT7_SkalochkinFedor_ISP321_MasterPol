@@ -8,6 +8,8 @@ namespace KT7_SkalochkinFedor_ISP321_MasterPol.Classes
 {
     public static class Manager
     {
+        
         public static Frame MainFrame { get; set; }
+        
     }
 }

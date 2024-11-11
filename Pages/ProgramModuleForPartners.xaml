@@ -9,6 +9,20 @@
       Title="ProgramModuleForPartners">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="65"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <TextBlock Text="Программный модуль для учета партнеров" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"></TextBlock>
+        </Grid>
+        <ListView Name="ShowPartners" Grid.Row="1">
+            <DataTemplate>
+                <StackPanel Grid.Row="2">
+                    <TextBlock Text="{Binding TitlePartner}"></TextBlock>
+                </StackPanel>
+            </DataTemplate>
+        </ListView>
     </Grid>
 </Page>
